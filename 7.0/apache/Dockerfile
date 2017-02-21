@@ -171,6 +171,7 @@ RUN set -xe \
 		--with-curl \
 		--with-libedit \
 		--with-openssl \
+		--with-pdo-mysql \
 		--with-zlib \
 		\
 		$PHP_EXTRA_CONFIGURE_ARGS \
